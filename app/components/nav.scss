@@ -1,0 +1,23 @@
+@import '../styles/variables.scss';
+
+.nav {
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    justify-content: space-between;
+    background-color: $main-bg;
+
+    .leftSide {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        color: $soft-color;
+    }
+
+    .rightSide {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        color: $soft-color;
+    }
+}
